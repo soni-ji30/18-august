@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="climate.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="card">
+
+
+            <div class="card-header">
+                <h2>Weather</h2>
+                <div class="weather">
+                </div>
+
+
+                <div class="city">
+                    <h2>City Name</h2>
+                    <button id="btn" class="button" onclick="CallAjax(this.value);News('FR')" value="Paris">Paris</button>
+                    <button id="btn1" class="button" onclick="CallAjax(this.value);News('US')" value="America">America</button>
+                    <button id="btn2" class="button" onclick="CallAjax(this.value);News('UK')" value="London">London</button>
+                    <button id="btn3" class="button" onclick="CallAjax(this.value);News('IT')" value="Italy">Italy</button>
+                    <button id="btn4" class="button" onclick="CallAjax(this.value);News('PL')" value="Poland">Poland</button>
+                    <button id="btn5" class="button" onclick="CallAjax(this.value);News('IN')" value="Delhi">Delhi</button>
+                </div>
+            </div>
+
+            <div class="card-body">
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    <script src="climate.js"></script>
+</body>
+
+</html>
