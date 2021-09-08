@@ -2,8 +2,8 @@ var data = []
 var x = 273.15
 
 function CallAjax(City) {
-    var key = "21ec46344d981a5c9b3ecb0f2f68c0c4"
-    var url = `https://api.openweathermap.org/data/2.5/weather?q=${City} &appid=${key}`
+    var key = "f91f477ec1a147aa8e937f6754c58236"
+    var url = `https://api.openweathermap.org/data/2.5/weather?q=${City} &appid=${f91f477ec1a147aa8e937f6754c58236}`
     var http = new XMLHttpRequest();
     http.open("GET", url);
     http.send()
